@@ -75,6 +75,23 @@ body {
     -webkit-appearance: none;
 }
 
+.form-row textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: 1 px solid #D6D9DC;
+    border-radius: 3px;
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+}
+
+.form-row .instructions {
+    color: #999999;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
 .legacy-form-row {
     border: none;
     margin-bottom: 40px;
@@ -124,6 +141,10 @@ body {
         width: 120px;
         margin-top: 7px;
         padding-right: 20px;
+    }
+
+    .form-row .instructions {
+        margin-left: 120px;
     }
 
     .legacy-form-row {
